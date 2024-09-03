@@ -1,0 +1,24 @@
+@use 'variaveis';
+@use 'hero';
+@use 'trailer';
+@use 'synopsis';
+@use 'actors';
+@use 'review';
+@use 'footer';
+
+@font-face {
+    font-family: VeniteAdoremus;
+    src: url(../../assets/fonts/VeniteAdoremus.ttf);
+    font-weight:400 ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: variaveis.$corDeFundo;
+    font-family: VeniteAdoremus, sans-serif;
+}

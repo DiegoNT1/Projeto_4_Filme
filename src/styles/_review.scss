@@ -1,0 +1,60 @@
+@use 'variaveis';
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    
+    &__title {
+        font-size: variaveis.$title;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+        color: variaveis.$corTextoSecundario;
+    }
+
+    &__form {
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+        label {
+            color: variaveis.$corTextoSecundario;
+            font-size: 22px
+        }
+
+        &--name,
+        &--message {
+            width: 240px;
+            height: 30px;
+            max-height: 200px;
+            min-height: 30px;
+            resize: vertical;
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid #e4750e;
+            color: variaveis.$corTextoPrincipal;
+            font-size: 18px;
+            outline: none;
+        }
+
+        &--button {
+            margin: 12px auto 0 auto;
+            width: 120px;
+            height: 40px;
+            font-size: 18px;
+            font-family: VeniteAdoremus, sans-serif;
+            color: variaveis.$corTextoPrincipal;
+            background-color: variaveis.$corTextoSecundario;
+            text-transform: uppercase;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            
+            &:hover {
+                background-color: #e4750e7e;
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@use 'variaveis';
+
+.actors {
+    margin-top: 80px;
+    text-align: center;
+
+    &__title {
+        font-size: variaveis.$title;
+        margin-bottom: 18px;
+        text-transform: uppercase;
+        color: variaveis.$corTextoSecundario;
+    } 
+    
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+        &__item {
+            margin-bottom: 18px;
+
+            img {
+                border-radius: 4px;
+                border: 2px solid #e4750e;
+            }
+
+            &__name {
+                font-size:  22px;
+                color: variaveis.$corTextoPrincipal;
+                
+            }
+
+            &__span {
+                font-size: 18px;
+                color: gray;
+            }
+        }
+    }
+}
