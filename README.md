@@ -14,9 +14,8 @@ Este projeto consiste na criação de uma **página dedicada a um filme**, com l
 A página apresenta um filme com os seguintes elementos:
 
 - 🖼️ Imagem de destaque (capa/poster)
-- 📝 Sinopse ou descrição
-- 📅 Informações como data de lançamento, gênero, duração etc.
-- 🎞️ Trailer (embed do YouTube, se aplicável)
+- 📝 Sinopse.
+- 🎞️ Trailer.
 - 🎨 Design estilizado com foco na estética cinematográfica
 
 ---
@@ -50,7 +49,7 @@ Projeto_4_Filme/
 
 ```bash
 # 1. Clone este repositório
-git clone https://github.com/DiegoNT1/Projeto_2-Agenda_De_Contatos.git
+git clone https://github.com/DiegoNT1/Projeto_4_Filme.git
 
 # 2. Acesse a pasta do projeto
 cd Projeto_2-Agenda_De_Contatos
