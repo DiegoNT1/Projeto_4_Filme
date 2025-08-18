@@ -54,6 +54,5 @@ git clone https://github.com/DiegoNT1/Projeto_4_Filme.git
 # 2. Acesse a pasta do projeto
 cd Projeto_2-Agenda_De_Contatos
 
-# 3. Abra o arquivo index.html no seu navegador
-# Você pode usar http-server, Live Server do VSCode, ou simplesmente dar duplo clique no arquivo.
+# 3. Você pode usar http-server, Live Server do VSCode.
 ```
